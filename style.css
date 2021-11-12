@@ -8,12 +8,18 @@ body {
     
 }
 
-h1, h2, p {
-    color: white;
+h1, h2 {
+    color: lightslategrey;
     text-align: center;
     font-family: sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     font-style: italic;
+}
+
+p {
+    color: lightskyblue;
+    font-family: 'Mohave' , sans-serif;
+    line-height: 200%;
 }
 
 img {
@@ -22,4 +28,9 @@ img {
     margin-right: auto;
     background-size: cover;
     width: 500px;
+}
+
+a {
+    text-align: center;
+    color: gold;
 }
